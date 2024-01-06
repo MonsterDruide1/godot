@@ -96,7 +96,7 @@ class RasterizerCanvasGLES3 : public RendererCanvasRender {
 	enum {
 		MAX_RENDER_ITEMS = 256 * 1024,
 		MAX_LIGHT_TEXTURES = 1024,
-		MAX_LIGHTS_PER_ITEM = 16,
+		MAX_LIGHTS_PER_ITEM = 64,
 		DEFAULT_MAX_LIGHTS_PER_RENDER = 256,
 	};
 
@@ -246,7 +246,7 @@ public:
 		RID canvas_shader_default_version;
 
 		uint32_t max_lights_per_render = 256;
-		uint32_t max_lights_per_item = 16;
+		uint32_t max_lights_per_item = 64;
 		uint32_t max_instances_per_buffer = 16384;
 		uint32_t max_instance_buffer_size = 16384 * 128;
 	} data;

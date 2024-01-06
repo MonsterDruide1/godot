@@ -1,5 +1,5 @@
 
-#define MAX_LIGHTS_PER_ITEM 16
+#define MAX_LIGHTS_PER_ITEM 64
 
 #define M_PI 3.14159265359
 

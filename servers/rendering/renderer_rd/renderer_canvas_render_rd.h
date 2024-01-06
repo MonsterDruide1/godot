@@ -111,7 +111,7 @@ class RendererCanvasRenderRD : public RendererCanvasRender {
 	enum {
 		MAX_RENDER_ITEMS = 256 * 1024,
 		MAX_LIGHT_TEXTURES = 1024,
-		MAX_LIGHTS_PER_ITEM = 16,
+		MAX_LIGHTS_PER_ITEM = 64,
 		DEFAULT_MAX_LIGHTS_PER_RENDER = 256
 	};
 
